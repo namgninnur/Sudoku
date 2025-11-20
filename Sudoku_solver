@@ -7,6 +7,9 @@ os.system('clear')
 import pandas as pd
 import math as math
 import numpy as np
+from datetime import datetime
+
+time_start = datetime.now()
 
 #Required functions
 def poss_str_to_poss_lst(poss_string):
@@ -367,3 +370,6 @@ while is_done == 0:
     #print(count)
 
 #print(possibilities_df)
+time_end = datetime.now()
+time_taken = time_end-time_start
+print('Time taken is ',time_taken, 'seconds')
