@@ -178,7 +178,7 @@ data_hard2 = {
   "col9": [None,8,None,None,None,None,None,6,None]
 }
 
-data = data_hard2
+data = data_hard
 
 #load data into a DataFrame object:
 df = pd.DataFrame(data)
